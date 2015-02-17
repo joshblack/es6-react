@@ -46,7 +46,9 @@
 
 	"use strict";
 
-	var React = __webpack_require__(1);
+	var _interopRequire = function (obj) { return obj && obj.__esModule ? obj["default"] : obj; };
+
+	var React = _interopRequire(__webpack_require__(1));
 
 	var App = React.createClass({ displayName: "App",
 	    render: function () {
