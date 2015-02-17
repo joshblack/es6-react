@@ -48,9 +48,9 @@
 
 	var React = __webpack_require__(1);
 
-	var App = React.createClass({displayName: "App",
-	    render:function () {
-	        return (React.createElement("div", null, "Hello World!"));
+	var App = React.createClass({ displayName: "App",
+	    render: function () {
+	        return React.createElement("div", null, "Hello World!");
 	    }
 	});
 

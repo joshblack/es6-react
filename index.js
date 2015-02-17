@@ -1,8 +1,8 @@
 "use strict";
 
-var React = require('react');
+const React = require('react');
 
-var App = React.createClass({
+const App = React.createClass({
     render () {
         return (<div>Hello World!</div>);
     }
