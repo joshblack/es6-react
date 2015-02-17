@@ -9,7 +9,10 @@ module.exports = {
             {
                 test: /\.js$/,
                 exclude: /node_modules/,
-                loaders: ['babel-loader?experimental&optional=selfContained', 'jsx-loader?harmony']
+                loaders: [
+                    'babel-loader?experimental&optional=selfContained',
+                    'jsx-loader?harmony'
+                ]
             }
         ]
     }
