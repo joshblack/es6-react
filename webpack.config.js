@@ -9,7 +9,9 @@ module.exports = {
             {
                 test: /\.js$/,
                 exclude: /node_modules/,
-                loaders: ['babel-loader', 'jsx-loader?harmony']
+                // 'selfContained' transformer tells babel to require the runtime instead
+                // of inlining it.
+                loaders: ['babel-loader?experimental&optional=selfContained', 'jsx-loader?harmony']
             }
         ]
     }
