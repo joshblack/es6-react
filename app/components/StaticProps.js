@@ -2,12 +2,16 @@
 
 import React from 'react';
 
+const { div, button } = React.DOM;
+
 class StaticProps extends React.Component {
 
     constructor (props) {
         this.state = {
             count: props.initialCount
         }
+
+        // this.increment = this.increment.bind(this);
     }
 
     increment () {

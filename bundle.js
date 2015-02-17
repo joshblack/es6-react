@@ -51,9 +51,6 @@
 
 	var App = _babelHelpers.interopRequire(__webpack_require__(1));
 
-
-
-
 	React.render(React.createElement(App, null), document.body);
 
 /***/ },
@@ -412,6 +409,10 @@
 	var _babelHelpers = __webpack_require__(2)["default"];
 	var React = _babelHelpers.interopRequire(__webpack_require__(3));
 
+	var $__0 = React.DOM,
+	    div = $__0.div,
+	    button = $__0.button;
+
 	var ____Class1 = React.Component;for (var ____Class1____Key in ____Class1) {
 	    if (____Class1.hasOwnProperty(____Class1____Key)) {
 	        StaticProps[____Class1____Key] = ____Class1[____Class1____Key];
@@ -421,7 +422,10 @@
 	function StaticProps(props) {
 	    this.state = {
 	        count: props.initialCount
-	    };
+	    }
+
+	    // this.increment = this.increment.bind(this);
+	    ;
 	}
 
 	StaticProps.prototype.increment = function () {
