@@ -1,18 +1,7 @@
 "use strict";
 
 import React from 'react';
-
-// const App = React.createClass({
-//     render () {
-//         return <div>Hello World!!</div>;
-//     }
-// });
-
-class App extends React.Component {
-    render () {
-        return (<div>Hello World!</div>);
-    }
-}
+import App from './app';
 
 
 React.render(<App />, document.body);
