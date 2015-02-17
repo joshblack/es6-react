@@ -44,12 +44,18 @@
 /* 0 */
 /***/ function(module, exports, __webpack_require__) {
 
+	"use strict";
+
 	var React = __webpack_require__(1);
 
-	window.React = React;
+	var App = React.createClass({displayName: "App",
+	    render:function () {
+	        return (React.createElement("div", null, "Hello World!"));
+	    }
+	});
 
-	console.log('Hello world!');
-	console.log(React);
+
+	React.render(React.createElement(App, null), document.body);
 
 /***/ },
 /* 1 */

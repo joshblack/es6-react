@@ -1,6 +1,12 @@
+"use strict";
+
 var React = require('react');
 
-window.React = React;
+var App = React.createClass({
+    render () {
+        return (<div>Hello World!</div>);
+    }
+});
 
-console.log('Hello world!');
-console.log(React);
+
+React.render(<App />, document.body);
